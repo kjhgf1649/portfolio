@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글</title>
+    <link type="text/css" rel="stylesheet" href="./forum.css"/>
+    <link rel="stylesheet"href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <script src="./forum.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js"></script>
+</head>
+<body onload="contentGet()"> 
+
+    <div id = contentArea_forumPage>
+        <h1 id = contentTitle_forumPage>제목 들어갈 곳</h1></br>
+        <div id = categoryAndDateDiv>
+            <p id = contentCategory_forumPage>카테고리</p>
+            <p id = contentWritedDay_forumPage>날짜 들어갈 곳</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <img id = contentImage_forumPage src=>
+        </div>
+    
+        <div id = contentText_forumPage>내용 적을 곳</div>
+        <div class = 'buttonDiv'>
+            <button class = editButton_forumPage onclick="edit_content()" >수정</button>
+            <button class = deleteButton_forumPage onclick="content_delete()">삭제</button>
+            <button class = gobackButton_forumPage onclick="home_return()">돌아가기</button>
+        </div>
+        
+    </div>
+</body>
+</html>

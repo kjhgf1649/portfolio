@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나눔의美학</title>
+    <link type="text/css" rel="stylesheet" href="./index.css"/>
+    <link rel="stylesheet"href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js"></script>
+</head>
+<body onload = "contentListGet()">
+    <div id ="toparea">
+        <span id="top">
+            <span id="tle">나눔의 <strong id = "tle-ct">美</strong>학</span>
+            <div>
+                <span class="toplink"><a class="top-link"href="./inforcenter.html">고객센터</a></span>
+                <span class="toplink"><a id="sign"class="top-link"href="./signup.html">회원가입</a></span>
+                <span class="toplink"><a id="log"class="top-link"href="./login.html">로그인</a></span>
+                <span class="toplink"><a id="logout"class="top-link"href="./index.html">로그아웃</a></span>
+                <span class ="toplink"><a class = "top-link"href = "./write_content.html">글쓰기</a></span>
+            </div>
+            <!--검색바-->
+            <div class="sch">
+                <div class="header-search">
+                    <form>
+                        <input class="input" placeholder="검색어를 입력해 주세요">
+                        <button class="search-btn" type="button"  onclick="search()"><i class="fa fa-search fa-5x" aria-hidden="true"></i></button>
+                    </form>
+                    <p id ="isch">상세검색</p>
+                </div>
+            </div>
+        </span>
+        <!--메뉴-->
+        <nav id="topMenu" >
+            <ul>
+                    <li><a class="menuLink" onclick="search_category('가전제품')">가전제품</a></li>
+                    <li><a class="menuLink" onclick="search_category('의류')">의류</a></li>
+                    <li><a class="menuLink" onclick="search_category('컴퓨터용품')">컴퓨터용품</a></li>
+                    <li><a class="menuLink" onclick="search_category('게임기')">게임기</a></li>
+                    <li><a class="menuLink" onclick="search_category('서적/음반')">서적/음반</a></li>
+                    <li><a class="menuLink" onclick="search_category('잡화')">잡화</a></li>
+                    <li><a class="menuLink" onclick="search_category('휴대폰/태블릿')">휴대폰/태블릿</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <a id = "contentList"></a> 
+    
+</body>
+</html>

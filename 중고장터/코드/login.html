@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인페이지</title>
+    <script src="./login.js"></script>
+    <!--axios-->
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <span id="login-box">
+        <span id="login-title">로그인</span>
+            <div class="input-box">
+                <input class="idInput" id ="idInput" name="id"type="text" placeholder=" id"><br>
+                <input class="pwInput" id ="pwInput" name="pw"type="password"placeholder=" password"><br>
+            </div>
+            <button class="btn" type="submit" value="로그인" onclick="loginck()">로그인</button>
+            <button class="btn" ><a id="btn2" href="./signup.html">회원가입</a></button>
+    </span>
+        
+</body>
+</html>

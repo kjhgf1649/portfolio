@@ -1,0 +1,38 @@
+#phone{
+    position: fixed;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#address{
+    position: fixed;
+    top: 100px;
+    left: 600px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+#exp{
+    position: fixed;
+    top: 380px;
+    left: 740px;
+
+    font-weight: 400;
+    font-size: 20px;
+}
+#email{
+    position: fixed;
+    top: 100px;
+    left: 1150px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+#map{
+    position: relative;
+    top: 400px;
+    width: 100%;
+}

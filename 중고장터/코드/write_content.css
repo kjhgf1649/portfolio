@@ -1,0 +1,36 @@
+#title{
+    width : 100%;
+    padding : 10px;
+}
+
+#content_write{
+    height : 100%;
+    width : 100%;
+    padding: 10px;
+    position: relative;
+}
+
+html,body,form,.contentArea{
+    width : 99%;
+    height : 93%;
+}
+
+#category_selectBox{
+    margin: 10px;
+}
+.submenu{
+    margin-top: 5px;
+    margin-bottom : 5px;
+    padding-left: 10px;
+}
+
+
+.button_write{
+    border: black 1px solid;
+    background-color:darkseagreen;
+    color: white;
+    border-radius: 5px;
+    float: right ;
+    height: 40px;
+    width: 100px;
+}

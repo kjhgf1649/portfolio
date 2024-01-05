@@ -1,0 +1,88 @@
+.list-table th{
+	height:40px;
+	border-top:2px solid rgb(0, 146, 204);
+	border-bottom:1px solid #CCC;
+	font-weight: bold;
+	font-size: 17px;
+}
+.list-table td{
+    border-bottom : 1px solid #c8c8c8;
+    padding : 10px;
+    text-align : center;
+    font-size: 15px;
+}
+.list-table tr:hover{
+    background-color : #c8c8c8;
+    cursor : pointer;
+}
+.Link{
+    position: relative;
+    text-decoration:none;                    
+    color: black;   
+    display: block;
+    width: 80px;                        
+    font-size: 15px;                          
+    font-weight: bold;                       
+    font-family: "Trebuchet MS", Dotum, Arial;
+    margin: 10px;
+    padding: 10px;
+}
+.menu {
+    position: relative;
+    top: 235px;
+    left: 60px; 
+    height: 30px; 
+    width: 1200px; 
+}
+.menu .Link:hover {          
+    color: skyblue;                   
+    background-color: gray; 
+}
+
+body{
+    margin-right : 150px;
+    margin-left : 150px;
+    margin-top: 40px;
+    /* border: solid black 1px; */
+}
+
+/* //타이틀 설정 */
+#contentTitle_forumPage{
+    margin : 0;
+    border-bottom: #c8c8c8 solid 1px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+/* //날짜 css 설정 */
+
+
+#contentText_forumPage, #contentImage_forumPage{
+    margin-top: 50px;
+}
+.buttonDiv{
+    float: right;
+}
+.buttonDiv button{
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color:darkseagreen;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+.buttonDiv button:hover{
+    background-color:darkslategray;
+    border: #c8c8c8 1px solid;
+    border-radius: 5px;
+}
+#categoryAndDateDiv{
+    float: right;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    margin-bottom: 5px;
+}

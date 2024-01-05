@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="./write_content.css">
+
+  </head>
+  <body>
+    
+    
+    <div class = "contentArea">
+
+      <!-- title,category,content_write 를 받아서 post -->
+
+      <form action="./write_content.php" method="post" class = "contentWriteForm" name = "contentWriteForm" enctype="multipart/form-data">
+
+        <input type="text" name = 'title' id = "title" rows = "1" cols = "55" placeholder = "제목을 입력해 주세요" maxlength = "100" required>
+      
+        <div class = "submenu">
+
+          <label for="category">카테고리 : </label>
+          <select name="category" id="category_selectBox">
+            <option value="가전제품">가전제품</option>
+            <option value="의류">의류</option>
+            <option value="컴퓨터용품">컴퓨터용품</option>
+            <option value="게임기">게임기</option>
+            <option value="서적/음반">서적</option>
+            <option value="잡화">잡화</option>
+            <option value="휴대폰/태블릿">휴대폰/태블릿</option>
+          </select>
+    
+          <input type="file" name = "content_image", id = "imageFile" accept="image/png, image/jpeg, image/jpg">
+          <input type="submit" class="button_write" value="작성하기">
+
+        </div>
+
+        <textarea id = "content_write" name = "content_text" type="text"  rows = "30" cols = "55" placeholder = "내용을 입력해 주세요" required></textarea>
+        
+      </form>
+    </div>
+
+    <script src = ../write_content.js></script>
+
+  </body>
+</html>
+
